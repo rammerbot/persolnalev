@@ -1,0 +1,72 @@
+body {
+    background-color: white;
+}
+.img-home {
+    height:720px ;
+}
+.orbit-image1{
+    width: 100%;
+
+    padding: 0px 10px ;
+}
+
+.carnet{
+    width: 150px;
+    overflow: hidden;
+}
+
+.fecha {
+    font-size: 12px;
+    color: grey;
+}
+
+.carnet img{
+    width: 150px;
+}
+
+.guardado-exitoso {
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25%;
+}
+
+.eliminar_nombre {
+    font-size: 32px;
+    color: #655d5d;
+
+}
+
+.h1-cabecera{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    color: #1779ba;
+}
+
+.h1-cabecera2{
+    font-size: 35px;
+    margin: 20px;
+    color: #1779ba;
+}
+
+#footer {
+    position: fixed;
+    text-align: center;
+    width:100%;
+    bottom: 0px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px;
+}
+
+#div-footer{
+
+    display: block;
+    margin-top: 30px;
+}
+
+.nombre_header {
+    color: #373333;
+}

@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% include 'includes/header.html' %}
+
+{% block title %}
+    Crear nueva habilidad
+{% endblock title %}
+
+{% block content %}
+    <div class="grid-container">
+        <div>
+            <form class="callout" method = 'POST'> {% csrf_token %}
+                <h3 class="h1-cabecera2">Crear nueva habilidad</h3>
+                <hr>
+                {{form.as_p}}
+                <button class="button warning" type="submit">Guardar</button>
+            </form>
+        </div>
+    </div>
+    {% include 'includes/footer.html' %}
+{% endblock content %}
+
+    
